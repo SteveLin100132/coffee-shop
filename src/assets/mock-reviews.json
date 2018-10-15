@@ -1,0 +1,30 @@
+[
+  {
+    "shop": "Baker's Dozen Donuts",
+    "email": "ispar@wistron.com",
+    "timestamp": "Mon, 15 Oct 2018 13:01:06",
+    "rate": 5,
+    "content": "Lorem ipsum dolor sit amet, pri congue offendit id. Audire dissentiet vis et. Ne mel iudico tation, sint possit eum ut. Mazim fuisset accusamus ius ad. Vix aperiam officiis eu. Mutat officiis concludaturque vis eu, veritus epicurei per ne."
+  },
+  {
+    "shop": "Coffee Like",
+    "email": "referrentur@wistron.com",
+    "timestamp": "Wed, 15 Jan 2014 13:01:06",
+    "rate": 3,
+    "content": "Ei graece virtute per, elit solum appetere an eos. Cu mea mollis cotidieque referrentur. Ei vero mucius mea. Has graeci fastidii id, minim dolore reprehendunt eos cu, ex eripuit prodesset sed. Ne eam alii nemore. Eu dolores tincidunt vis."
+  },
+  {
+    "shop": "Indian Coffee House",
+    "email": "partem@wistron.com",
+    "timestamp": "Mon, 15 Aug 2016 13:01:06",
+    "rate": 4,
+    "content": "Ea mel partem minimum, in choro adolescens mel. Ut mazim tamquam incorrupte pri. Duo rebum putant vituperata ut, ut tacimates expetendis quo."
+  },
+  {
+    "shop": "Lavazza",
+    "email": "systems@wistron.com",
+    "timestamp": "Mon, 18 Dec 2017 13:01:06",
+    "rate": 5,
+    "content": "Lorem ipsum dolor sit amet, pri congue offendit id. Audire dissentiet vis et. Ne mel iudico tation, sint possit eum ut. Mazim fuisset accusamus ius ad. Vix aperiam officiis eu. Mutat officiis concludaturque vis eu, veritus epicurei per ne."
+  }
+]
