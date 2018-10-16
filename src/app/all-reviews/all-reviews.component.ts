@@ -30,7 +30,7 @@ export class AllReviewsComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.serviceSubscribe.unsubscribe();
+    this.serviceSubscribe.unsubscribe(); // 取消訂閱
   }
 
   /**
@@ -40,7 +40,8 @@ export class AllReviewsComponent implements OnInit, OnDestroy {
     this.serviceSubscribe = this.reviewsService
       .getReviews()
       .subscribe(data => {
-        this.reviews = data;
+        this.reviews = data.list;
+        // console.log(this.reviews);
       });
   }
 

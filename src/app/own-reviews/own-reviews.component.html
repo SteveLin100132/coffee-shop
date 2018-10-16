@@ -1,3 +1,35 @@
-<p>
-  own-reviews works!
-</p>
+<div class="own-reviews-container">
+  <div class="post-panel">
+    <form [formGroup]="review" (ngSubmit)="postReview(review)">
+      <div class="radio-group">
+        <div>
+          <span class="hint">Review Rate: </span>
+          <input type="radio" name="rate" value="1" formControlName="rate">
+          <label for="rate">1</label>
+          <input type="radio" name="rate" value="2" formControlName="rate">
+          <label for="rate">2</label>
+          <input type="radio" name="rate" value="3" formControlName="rate">
+          <label for="rate">3</label>
+          <input type="radio" name="rate" value="4" formControlName="rate">
+          <label for="rate">4</label>
+          <input type="radio" name="rate" value="5" formControlName="rate">
+          <label for="rate">5</label>
+        </div>
+
+        <div>
+          <span class="hint">Coffee Shop: </span>
+          <select name="coffeeshopId" formControlName="coffeeshopId">
+            <option *ngFor="let shop of coffeeshops" [value]="shop.id">
+              {{ shop.name }}
+            </option>
+          </select>
+        </div>
+      </div>
+      <hr>
+
+      <textarea name="content" rows="10" cols="52" formControlName="content"></textarea>
+      <input type="submit" value="Submit">
+      <p *ngIf="postSuccess" class="post-success">Thank You!</p>
+    </form>
+  </div>
+</div>

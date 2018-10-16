@@ -27,6 +27,14 @@ export class ReviewsService {
    * @returns Observable<@enum Reviews[]> 回傳一個觀察者
    */
   getReviews(): Observable<Reviews[]> {
-    return this.http.get<Reviews[]>('http://localhost:3000/api/reviews');
+    return this.http.get<Reviews[]>('http://localhost:3000/api/reviews/list');
+  }
+
+  /**
+   * @method createReviews 建立評論
+   * @param {object} data 建立評論的基本資料
+   */
+  createReviews(data: Reviews): Observable<Reviews[]> {
+    return this.http.post<Reviews[]>('http://localhost:3000/api/reviews', data);
   }
 }
